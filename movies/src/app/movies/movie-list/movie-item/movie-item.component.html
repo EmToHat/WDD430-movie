@@ -1,0 +1,10 @@
+<div class="carousel-cell">
+    <span class="carousel-flex">
+        <div class="image-box"><a href="#" class="image-link" (click)="selectMovie()"><img src="{{ movie.imageUrl }}" alt="{{ movie.title }}"></a></div>
+        <p>{{ movie.title }}</p>
+        <div class="rating">
+            <span class="fa fa-star checked" *ngFor="let star of stars"></span>
+            <span class="rating-value">({{ movie.rating }})</span>
+        </div>
+    </span>
+</div>

@@ -1,0 +1,27 @@
+.carousel-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.carousel-cell {
+    height: 380px;
+}
+
+img {
+    width: 100%;
+}
+
+.image-box {
+    width: 200px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+}
+
+.rating .fa-star {
+    color: gold;
+}
