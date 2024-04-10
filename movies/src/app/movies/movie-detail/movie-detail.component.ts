@@ -1,22 +1,25 @@
-import { Component, Input } from '@angular/core';
-import { Movie } from '../movie-model';
-import { MoviesService } from '../movies.service';
+import { Component, OnInit } from '@angular/core';
+import { Movie } from '../../models/movie-model';
+import { MoviesService } from '../../services/movies.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'mv-movie-detail',
   templateUrl: './movie-detail.component.html',
-  styleUrl: './movie-detail.component.css'
+  styleUrls: ['./movie-detail.component.css'] // Corrected from styleUrl to styleUrls
 })
-export class MovieDetailComponent {
-  @Input() movie: Movie | null = null;
+export class MovieDetailComponent implements OnInit {
+  movie: Movie | null = null;
 
-  selectedMovie: any;
-
-  constructor(private movieService: MoviesService) {}
+  constructor(private route: ActivatedRoute, private movieService: MoviesService) {}
 
   ngOnInit() {
-    this.movieService.selectedMovie$.subscribe(movie => {
-      this.selectedMovie = movie;
-    });
+    const movieId = this.route.snapshot.paramMap.get('id');
+    if (movieId) {
+      this.movieService.getMovieById(+movieId).subscribe((movie) => {
+        this.movie = movie;
+      });
+    }
   }
 }
+

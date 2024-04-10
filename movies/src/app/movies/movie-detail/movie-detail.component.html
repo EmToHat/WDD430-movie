@@ -1,13 +1,13 @@
-<div class="desc-card" *ngIf="selectedMovie">
+<div class="desc-card">
     <div class="desc-top-row display-flex-center">
-        <span class="image-box"><img src="{{ selectedMovie.imageUrl }}" alt=""></span>
-        <span class="desc-title"> {{ selectedMovie.title }}</span>
+        <span class="image-box"><img src="{{ movie.imageUrl }}" alt=""></span>
+        <span class="desc-title"> {{ movie.title }}</span>
     </div>
     <div class="desc-middle-row">
         <div class="row-desc">
             <span><b>Director(s): </b></span>
             <span>
-                <ng-container *ngFor="let director of selectedMovie.director; let last = last">
+                <ng-container *ngFor="let director of movie.directors; let last = last">
                     <span> {{ director }}</span>
                     <span *ngIf="!last">, </span>
                 </ng-container>
@@ -16,7 +16,7 @@
         <div class="row-desc">
             <span><b>Writer(s): </b></span>
             <span>
-                <ng-container *ngFor="let writer of selectedMovie.writer; let last = last">
+                <ng-container *ngFor="let writer of movie.writers; let last = last">
                     <span> {{ writer }}</span>
                     <span *ngIf="!last">, </span>
                 </ng-container>
@@ -25,7 +25,7 @@
         <div class="row-desc">
             <span><b>Actor(s):</b></span>
             <span>
-                <ng-container *ngFor="let actor of selectedMovie.actor; let last = last">
+                <ng-container *ngFor="let actor of movie.actors; let last = last">
                     <span> {{ actor }}</span>
                     <span *ngIf="!last">, </span>
                 </ng-container>
@@ -33,7 +33,7 @@
         </div>
         <div class="row-desc">
             <span>
-                <ng-container *ngFor="let tag of selectedMovie.tags; let last = last">
+                <ng-container *ngFor="let tag of movie.tags; let last = last">
                     <span class="tag-design"> {{ tag }}</span>
                     <span *ngIf="!last"></span>
                 </ng-container>
@@ -43,7 +43,7 @@
 
     <div class="display-flex-center">
         <span class="buttons">
-            <a href="{{ selectedMovie.videoUrl }}" target="_blank" class="btn watch-trailer">
+            <a href="{{ movie.videoUrl }}" target="_blank" class="btn watch-trailer">
                 <span><i class="fas fa-play"></i> Watch Trailer</span>
             </a>
             <button class="btn watch-list">
@@ -52,4 +52,3 @@
         </span>
     </div>
 </div>
-

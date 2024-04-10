@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Movie } from '../../movie-model';
+import { Movie } from '../../../models/movie-model';
 
 @Component({
   selector: 'mv-movie-item',
@@ -7,29 +7,17 @@ import { Movie } from '../../movie-model';
   styleUrl: './movie-item.component.css'
 })
 export class MovieItemComponent {
-  @Input() title: string;
-  @Input() rating: number;
   @Input() movie: Movie;
-  @Output() movieSelected: EventEmitter<Movie> = new EventEmitter();
-
-  /*ngOnChanges(changes: SimpleChanges): void {
-    if (changes.rating) {
-      // Rating input has changed, update stars array
-    }
-  }*/
+  @Output() movieSelected: EventEmitter<number> = new EventEmitter(); // Emitting movie ID for selection
 
   get stars(): boolean[] {
-    const starsArray: boolean[] = new Array(5);
-    starsArray.fill(true, starsArray.length - this.rating, starsArray.length);
+    // Assuming 'rating' is a number from 1 to 5, adjust if your scale is different
+    const starsArray: boolean[] = new Array(5).fill(false);
+    starsArray.fill(true, 0, this.movie.rating); // Fill based on the movie's rating
     return starsArray;
   }
 
-  get imageUrl(): string {
-    return '../../../../assets/images/' + this.title.toLowerCase().replace(/\s+/g, '-') + '.png';
-  }
-
-
   selectMovie() {
-    this.movieSelected.emit(this.movie);
+    this.movieSelected.emit(this.movie.id); // Emitting just the ID for selection
   }
 }

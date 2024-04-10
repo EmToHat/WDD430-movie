@@ -1,0 +1,266 @@
+{
+    "categories": [
+        {
+            "name": "Jurassic Park Films",
+            "movies": [
+                {
+                    "id": 1,
+                    "title": "Jurassic Park",
+                    "directors": ["Steven Spielberg"],
+                    "writers": ["Michael Crichton", "David Koepp"],
+                    "actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum", "Richard Attenborough", "Ariana Richards", "Joseph Mazzello"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.5,
+                    "imageUrl": "../../../assets/images/1993-jurassic-park.png",
+                    "videoUrl": "https://youtu.be/bx46tthKXmc?si=CDbseI5RcW7EJHuV"
+                },
+                {
+                    "id": 2,
+                    "title": "Jurassic Park The Lost World",
+                    "directors": ["Steven Spielberg"],
+                    "writers": ["David Koepp"],
+                    "actors": ["Jeff Goldblum", "Julianne Moore", "Vince Vaughn", "Pete Postlethwaite", "Arliss Howard"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/1997-jurassic-park-the-lost-world.png",
+                    "videoUrl": "https://youtu.be/RxrvaneULkE?si=DvSd5qzdRON8eY3L"
+                },
+                {
+                    "id": 3,
+                    "title": "Jurassic Park 3",
+                    "directors": ["Joe Johnston"],
+                    "writers": ["Peter Buchman", "Alexander Payne", "Jim Taylor"],
+                    "actors": ["Sam Neill", "William H. Macy", "Téa Leoni", "Alessandro Nivola", "Trevor Morgan"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2001-jurassic-park-3.png",
+                    "videoUrl": "https://youtu.be/gjIaV6CU0wA?si=-4dNeSmQrTnh9WUm"
+                },
+                {
+                    "id": 4,
+                    "title": "Jurassic World",
+                    "directors": ["Rick Jaffa", "Amanda Silver", "Colin Trevorrow", "Derek Connolly"],
+                    "writers": ["Peter Buchman", "Alexander Payne", "Jim Taylor"],
+                    "actors": ["Chris Pratt", "Bryce Dallas Howard", "Vincent D'Onofrio", "Ty Simpkins", "Nick Robinson"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2015-jurassic-world.png",
+                    "videoUrl": "https://youtu.be/RFinNxS5KN4?si=bNoGKYFqpT7xOV2V"
+                },
+                {
+                    "id": 5,
+                    "title": "Jurassic World Fallen Kingdom",
+                    "directors": ["J.A. Bayona"],
+                    "writers": ["Colin Trevorrow", "Derek Connolly"],
+                    "actors": ["Chris Pratt", "Bryce Dallas Howard", "Rafe Spall", "Justice Smith", "Daniella Pineda"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2018-jurassic-world-fallen-kingdom.png",
+                    "videoUrl": "https://youtu.be/1FJD7jZqZEk?si=p0GvQc7cNIyV8E3x"
+                },
+                {
+                    "id": 6,
+                    "title": "Jurassic World Dominion",
+                    "directors": ["Colin Trevorrow"],
+                    "writers": ["Colin Trevorrow", "Emily Carmichae"],
+                    "actors": ["Chris Pratt", "Bryce Dallas Howard", "Sam Neill", "Laura Dern", "Jeff Goldblum"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2022-jurassic-world-dominion.png",
+                    "videoUrl": "https://youtu.be/fb5ELWi-ekk?si=fSLLBtQ4PIE5zcn1"
+                }
+            ]
+        },
+        {
+            "name": "Star Wars Films",
+            "movies": [
+                {
+                "id": 1,
+                "title": "Star Wars Episode I: The Phantom Menace",
+                "directors": ["George Lucas"],
+                "writers": ["George Lucas"],
+                "actors": ["Liam Neeson", "Ewan McGregor", "Natalie Portman", "Jake Lloyd", "Ian McDiarmid"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.5,
+                "imageUrl": "../../../assets/images/1999-starwars-the-phantom-menace.png",
+                "videoUrl": "https://youtu.be/bD7bpG-zDJQ?si=4r2GWPxOq1do-Axt"
+                },
+                {
+                "id": 2,
+                "title": "Star Wars Episode II: Attack of the Clones",
+                "directors": ["George Lucas"],
+                "writers": ["George Lucas"],
+                "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen", "Ian McDiarmid", "Samuel L. Jackson"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/2002-starwars-attack-of-the-clones.png",
+                "videoUrl": "https://youtu.be/gYbW1F_c9eM?si=pD7FNbJgCXAsMvk4"
+                },
+                {
+                "id": 3,
+                "title": "Star Wars Episode III: Revenge of the Sith",
+                "directors": ["George Lucas"],
+                "writers": ["George Lucas"],
+                "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen", "Ian McDiarmid", "Samuel L. Jackson"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/2005-starwars-revenge-of-the-sith.png",
+                "videoUrl": "https://youtu.be/5UnjrG_N8hU?si=sjkwLuOLa-jVltFy"
+                },
+                {
+                "id": 4,
+                "title": "Star Wars Episode IV: A New Hope",
+                "directors": ["George Lucas"],
+                "writers": ["George Lucas"],
+                "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Alec Guinness", "Peter Cushing"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/1977-starwars-a-new-hope.png",
+                "videoUrl": "https://youtu.be/vZ734NWnAHA?si=hkZwkAwRUbOMeZ36"
+                },
+                {
+                "id": 5,
+                "title": "Star Wars Episode V: The Empire Strikes Back",
+                "directors": ["Irvin Kershner"],
+                "writers": ["Leigh Brackett", "Lawrence Kasdan", "George Lucas"],
+                "actors": [],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/1980-starwars-the-empire-strikes-back.png",
+                "videoUrl": "https://youtu.be/JNwNXF9Y6kY?si=9hK77MT9cpco44Wc"
+                },
+                {
+                "id": 6,
+                "title": "Star Wars Episode VI: Return of the Jedi",
+                "directors": ["Richard Marquand"],
+                "writers": ["Lawrence Kasdan", "George Lucas"],
+                "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Billy Dee Williams", "Ian McDiarmid"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/1983-starwars-return-of-the-jedi.png",
+                "videoUrl": "https://youtu.be/XgB4gaY2dWE?si=hQM1lqga4NiMtjgl"
+                },
+                {
+                "id": 7,
+                "title": "Star Wars Episode VII: The Force Awakens",
+                "directors": ["J.J. Abrams"],
+                "writers": ["Lawrence Kasdan", "J.J. Abrams", "Michael Arndt"],
+                "actors": ["Daisy Ridley", "John Boyega", "Adam Driver", "Oscar Isaac", "Harrison Ford"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/2015-starwars-the-force-awakens.png",
+                "videoUrl": "https://youtu.be/sGbxmsDFVnE?si=Vv3GI2LeNfaJvdhm"
+                },
+                {
+                "id": 8,
+                "title": "Star Wars Episode VIII: The Last Jedi",
+                "directors": ["Rian Johnson"],
+                "writers": ["Rian Johnson"],
+                "actors": ["Daisy Ridley", "John Boyega", "Adam Driver", "Oscar Isaac", "Mark Hamill"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/2017-starwars-the-last-jedi.png",
+                "videoUrl": "https://youtu.be/Q0CbN8sfihY?si=M0OoRI75cZEWKLo4"
+                },
+                {
+                "id": 9,
+                "title": "Star Wars Episode IX: The Rise of Skywalker",
+                "directors": ["J.J. Abrams"],
+                "writers": ["Chris Terrio", "J.J. Abrams"],
+                "actors": ["Daisy Ridley", "John Boyega", "Adam Driver", "Oscar Isaac", "Carrie Fisher"],
+                "tags": ["action", "adventure", "science fiction"],
+                "rating": 4.9,
+                "imageUrl": "../../../assets/images/2019-starwars-the-rise-of-skywalker.png",
+                "videoUrl": "https://youtu.be/8Qn_spdM5Zg?si=RGYDUAjroPFM8_v8"
+                }
+            ]
+        },
+        {
+            "name": "Indiana Jones Films",
+            "movies": [
+                {
+                    "id": 1,
+                    "title": "Indiana Jones and The Raiders of the Lost Ark",
+                    "directors": ["Steven Spielberg"],
+                    "writers": ["Lawrence Kasdan", "George Lucas", "Philip Kaufman"],
+                    "actors": ["Harrison Ford", "Karen Allen", "Paul Freeman", "John Rhys-Davies"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.5,
+                    "imageUrl": "../../../assets/images/1981-jones-raiders-of-the-lost-ark.png",
+                    "videoUrl": "https://youtu.be/0xQSIdSRlAk?si=P_0nrIagEnTy6bIC"
+                },
+                {
+                    "id": 2,
+                    "title": "Indiana Jones and The Temple of Doom",
+                    "directors": ["Steven Spielberg"],
+                    "writers": ["Willard Huyck", "Gloria Katz", "George Lucas"],
+                    "actors": ["Harrison Ford", "Kate Capshaw", "Jonathan Ke Quan", "Amrish Puri"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/1984-jones-temple-of-doom.png",
+                    "videoUrl": "https://www.youtube.com/watch?v=WBdyLyijZhU"
+                },
+                {
+                    "id": 3,
+                    "title": "Indiana Jones and The Last Crusade",
+                    "directors": ["Steven Spielberg"],
+                    "writers": ["Jeffrey Boam", "George Lucas", "Menno Meyjes"],
+                    "actors": ["Harrison Ford", "Sean Connery", "Denholm Elliott", "Alison Doody"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/1989-jones-last-crusade.png",
+                    "videoUrl": ""
+                },
+                {
+                    "id": 4,
+                    "title": "Indiana Jones and The Kingdom of the Crystal Skull",
+                    "directors": ["Steven Spielberg"],
+                    "writers": ["David Koepp"],
+                    "actors": ["Harrison Ford", "Cate Blanchett", "Karen Allen", "Shia LaBeouf"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2008-jones-kingdom-of-the-crystal-skull.png",
+                    "videoUrl": ""
+                },
+                {
+                    "id": 5,
+                    "title": "Indiana Jones and The Dial of Destiny",
+                    "directors": ["James Mangold"],
+                    "writers": ["Jez Butterworth", "John-Henry Butterworth", "David Koepp", "James Mangold"],
+                    "actors": ["Harrison Ford", "Phoebe Waller-Bridge", "Antonio Banderas", "John Rhys-Davies", "Toby Jones", "Boyd Holbrook", "Ethann Isidore", "Mads Mikkelsen"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2023-jones-dial-of-destiny.png",
+                    "videoUrl": ""
+                }
+            ]
+        },
+        {
+            "name": "Avatar Films",
+            "movies": [
+                {
+                    "id": 1,
+                    "title": "Avatar",
+                    "directors": ["James Cameron"],
+                    "writers": ["James Cameron"],
+                    "actors": ["Sam Worthington", "Zoe Saldana", "Stephen Lang", "Michelle Rodriguez", "Sigourney Weaver"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.5,
+                    "imageUrl": "../../../assets/images/2009-avatar.png",
+                    "videoUrl": ""
+                },
+                {
+                    "id": 2,
+                    "title": "Avatar The Way of Water",
+                    "directors": ["James Cameron"],
+                    "writers": ["James Cameron", "Rick Jaffa", "Amanda Silver"],
+                    "actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver", "Stephen Lang", "Kate Winslet"],
+                    "tags": ["action", "adventure", "science fiction"],
+                    "rating": 4.9,
+                    "imageUrl": "../../../assets/images/2022-avatar-the-way-of-water.png",
+                    "videoUrl": ""
+                }
+            ]
+        }
+    ]
+}

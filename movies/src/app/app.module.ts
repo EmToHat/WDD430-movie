@@ -17,6 +17,8 @@ import { MovieItemComponent } from './movies/movie-list/movie-item/movie-item.co
 
 // Directives
 import { DropdownDirective } from './header/dropdown.directive';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { DropdownDirective } from './header/dropdown.directive';
     DropdownDirective,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
