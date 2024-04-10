@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { Movie } from '../../../models/movie-model';
+import { Movie } from '../../../../../server/models/movies-model.js';
 
 @Component({
   selector: 'mv-movie-item',

@@ -1,8 +1,8 @@
 import { Component, ElementRef, OnInit, ViewChildren, QueryList, AfterViewInit } from '@angular/core';
 import { Router } from '@angular/router';
 import Flickity from 'flickity';
-import { MoviesService } from '../../services/movies.service';
-import { MovieData } from '../../models/movie-model';
+import { MovieService } from '../../../app/movie.service';
+import { MovieData } from '../../../../server/models/movies-model.js';
 
 @Component({
   selector: 'mv-movie-list',
@@ -13,10 +13,10 @@ export class MovieListComponent implements OnInit, AfterViewInit {
   movieData: MovieData;
   @ViewChildren('carousel') carousels: QueryList<ElementRef>;
 
-  constructor(private router: Router, private moviesService: MoviesService) { }
+  constructor(private router: Router, private movieService: MovieService) { }
 
   ngOnInit(): void {
-    this.moviesService.getMovieData().subscribe(data => {
+    this.movieService.getMovies().subscribe(data => {
       this.movieData = data;
       setTimeout(() => this.initializeCarousels(), 0); // Slight delay to ensure DOM updates
     });
